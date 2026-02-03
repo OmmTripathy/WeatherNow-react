@@ -1,0 +1,7 @@
+<!-- create a .env file at the root -->
+<!-- add this 2 lines at the bottom in the created .env file but with value of your own api_url and api_key -->
+<!-- you can get your api url and key from OpenWeather website -->
+<!-- this .envexample file is just for reference and read only , no other uses  -->
+
+VITE_API_URL= "https://api.example.com"
+VITE_API_KEY= "your_api_key_here"

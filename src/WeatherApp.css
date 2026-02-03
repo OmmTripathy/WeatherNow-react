@@ -1,0 +1,27 @@
+.highlight-card {
+  animation: highlightPulse 2s ease-in-out;
+}
+
+@keyframes highlightPulse {
+  0%, 100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  25% {
+    transform: scale(1.08);
+    filter: brightness(1.1) drop-shadow(0 0 20px rgba(25, 118, 210, 0.6));
+  }
+  50% {
+    transform: scale(1.05);
+    filter: brightness(1.15) drop-shadow(0 0 30px rgba(25, 118, 210, 0.8));
+  }
+  75% {
+    transform: scale(1.08);
+    filter: brightness(1.1) drop-shadow(0 0 20px rgba(25, 118, 210, 0.6));
+  }
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
