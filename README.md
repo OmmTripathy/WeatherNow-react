@@ -1,8 +1,12 @@
-# 🌦️ WeatherNow - Live Weather App
-
-**Live Demo:** https://weathernowreact.netlify.app/
+# 🌦️ WeatherNow — Real-Time Weather App
 
 WeatherNow is a modern and responsive weather application built using **React.js**, **Vite**, and the **OpenWeather API**. It provides real-time weather information for cities around the world with a clean and user-friendly interface.
+
+[![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+🔗 **Live Demo:** [weathernowreact.netlify.app](https://weathernowreact.netlify.app/)
 
 ---
 
@@ -18,27 +22,22 @@ WeatherNow is a modern and responsive weather application built using **React.js
 * ⚡ Fast performance powered by Vite
 
 ---
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-* React.js
-* Vite
-* JavaScript (ES6+)
-* CSS3
-
-### API
-
-* OpenWeather API
-
+ 
+## Tech Stack
+ 
+| Layer | Tool |
+|---|---|
+| Frontend | React.js, JavaScript (ES6+), CSS3 |
+| Build Tool | Vite |
+| Data Source | OpenWeather API (REST) |
+| Deployment | Netlify |
+ 
 ---
-
-## 📂 Project Structure
-
-```bash
+ 
+## Project Structure
+ 
+```
 WeatherNow/
-│
 ├── public/
 ├── src/
 │   ├── components/
@@ -46,140 +45,48 @@ WeatherNow/
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
-│
-├── .env
+├── .env.example
 ├── package.json
 ├── vite.config.js
 └── README.md
 ```
-
+ 
 ---
-
-## ⚙️ Installation & Setup
-
-### 1. Clone the Repository
-
+ 
+## Setup
+ 
+**1. Clone the repo**
 ```bash
-git clone https://github.com/your-username/weathernow.git
-cd weathernow
+git clone https://github.com/OmmTripathy/WeatherNow-react.git
+cd WeatherNow-react
 ```
-
-### 2. Install Dependencies
-
+ 
+**2. Install dependencies**
 ```bash
 npm install
 ```
-
-### 3. Create Environment Variables
-
-Create a `.env` file in the root directory and add:
-
-```env
-VITE_OPENWEATHER_API_KEY=your_api_key_here
+ 
+**3. Add your API key**
+```bash
+cp .envexample .env
+# Open .env and add your OpenWeather API key
 ```
-
-### 4. Run Development Server
-
+ 
+```env
+VITE_OPENWEATHER_API_KEY=your_key_here
+```
+ 
+Get a free API key at [openweathermap.org/api](https://openweathermap.org/api)
+ 
+**4. Run**
 ```bash
 npm run dev
 ```
-
-Application will start on:
-
-```bash
-http://localhost:5173
-```
-
+ 
+App opens at `http://localhost:5173`
+ 
 ---
-
-## 🔑 Getting OpenWeather API Key
-
-1. Visit https://openweathermap.org/api
-2. Create an account.
-3. Generate your API key.
-4. Add the key to your `.env` file.
-
----
-
-## 📸 Application Preview
-
-### Weather Information Display
-
-* City Name
-* Temperature
-* Weather Condition
-* Humidity
-* Wind Speed
-* Weather Icon
-
----
-
-## 🌐 Deployment
-
-The application is deployed on **Netlify**.
-
-Live URL:
-
-https://weathernowreact.netlify.app/
-
-To deploy your own version:
-
-```bash
-npm run build
-```
-
-Upload the generated `dist` folder to Netlify.
-
----
-
-## 🎯 Learning Outcomes
-
-This project demonstrates:
-
-* API Integration in React
-* State Management using React Hooks
-* Environment Variables in Vite
-* Asynchronous JavaScript (Fetch API)
-* Responsive UI Development
-* Frontend Deployment using Netlify
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome.
-
-1. Fork the repository
-2. Create a feature branch
-
-```bash
-git checkout -b feature/new-feature
-```
-
-3. Commit your changes
-
-```bash
-git commit -m "Add new feature"
-```
-
-4. Push to GitHub
-
-```bash
-git push origin feature/new-feature
-```
-
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 👨‍💻 Author
-
-Developed by **Omm Kishor Tripathy**
-
-If you found this project useful, consider giving it a ⭐ on GitHub.
+ 
+## Author
+ 
+**Omm Kishor Tripathy** — [LinkedIn](https://linkedin.com/in/ommtripathy) · [GitHub](https://github.com/OmmTripathy)
